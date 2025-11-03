@@ -1,0 +1,120 @@
+id,text,date,type,hdbscan_label,hdbscan_probability
+tweet_1983325048028230140,"You can check my stats. I logged the work I put in.
+
+I'm setting up my data room now, and building the tools to let you analyze it.
+
+https://t.co/08DhjP1Oh5 https://t.co/8MePZrXi6m",2025-10-29 00:08:34,tweet,8,0.979586820368939
+tweet_1983325051211657611,"If you want to build your own, here's the tool you can use to do so: https://t.co/LCd4TSuH6o",2025-10-29 00:08:35,tweet,8,1.0
+tweet_1983337128626172154,The engineering manager gets the task and breaks it down. https://t.co/BNzuqoe3Cp,2025-10-29 00:56:34,tweet,3,1.0
+tweet_1983337194673852616,Then the TDD pair goes to work. https://t.co/BcUexGPTc7,2025-10-29 00:56:50,tweet,9,1.0
+tweet_1983338513149080028,Trying to teach the AI how bad it is at estimating task cost and length. https://t.co/UmufXwe7il,2025-10-29 01:02:04,tweet,3,1.0
+tweet_1983509904284352567,Hey look! they actually write files now instead of simply writing the files in their heads and telling me they totally did the work and I should just believe them. https://t.co/KdgwSvAQ5k,2025-10-29 12:23:07,tweet,-1,0.0
+tweet_1983520153116807494,"Once you realize that pretty much all of our problems have already been solved, it's simply a matter of finding the right pattern, everything gets a lot simpler.",2025-10-29 13:03:51,tweet,-1,0.0
+tweet_1983521185066303867,"Ok, still have a bit more work to do. Not quite the test code I had hoped for... https://t.co/kxUF913iNw",2025-10-29 13:07:57,tweet,-1,0.0
+tweet_1983521545386377492,Switching to codellama from llama3.1,2025-10-29 13:09:23,tweet,1,1.0
+tweet_1983524148757381292,"TIL that public WiFi like coffee shops prevent you from downloading large files, like ollama models.  
+
+So I’m using my phone as a hotspot to download codellama.",2025-10-29 13:19:43,tweet,1,0.9765308870411656
+tweet_1983524514131591374,Looks like I'll be here a while... https://t.co/myFE5ezp1l,2025-10-29 13:21:10,tweet,5,1.0
+tweet_1983532223715529055,@dagorenouf Sounds like this might be the path to that visa you were hoping for if you didn’t hit the media requirement before 😂,2025-10-29 13:51:49,tweet,8,0.9702751775766532
+tweet_1983534293315166446,"Still downloading the model, but getting better results from llama3.1 with some prompt engineering. Just need to make sure that failing test runs are actually being paid attention to. https://t.co/KkCW9t1wt9",2025-10-29 14:00:02,tweet,1,1.0
+tweet_1983535168578322855,Now I've got the team lead checking the work after each round and giving feedback to the pair. https://t.co/hTCIGrh4bA,2025-10-29 14:03:31,tweet,9,1.0
+tweet_1983537652428140946,"Hard to read, but I tracked down the outgroup and their HQ is in Outvillle. https://t.co/avkt0AasGB",2025-10-29 14:13:23,tweet,3,0.9924204861911707
+tweet_1983538897817682310,Time to add a competition layer. None of my AI engineers will be getting soft anytime soon. https://t.co/ozU3AEmO1o,2025-10-29 14:18:20,tweet,4,1.0
+tweet_1983548568783974451,"@PaulYacoubian Huh, that feels a lot like being a dad",2025-10-29 14:56:46,tweet,0,1.0
+tweet_1983559520946397322,My first performance report. https://t.co/meB42MfJiZ,2025-10-29 15:40:17,tweet,-1,0.0
+tweet_1983562962053812734,"There are 4 factors that will determine the success of a founder:
+
+Insight Velocity
+Predictive Accuracy
+Ethical Alignment
+Trust Index
+
+This is the Sabermetrics for startup founders.",2025-10-29 15:53:57,tweet,-1,0.0
+tweet_1983563662171218044,Huh. Curious about the dip. Going to have to dig into that. https://t.co/gLxykh6Tdt,2025-10-29 15:56:44,tweet,0,1.0
+tweet_1983565819595428051,This is 100% true.,2025-10-29 16:05:18,tweet,7,1.0
+tweet_1983572772954497479,"Well, looks like I burnt out.
+
+That's legit. https://t.co/orvZhqJd0m",2025-10-29 16:32:56,tweet,5,1.0
+tweet_1983573374602269180,"about 3 months before I got fired. Was trying to balance working at a startup and exploring ideas and ran into inner conflict that I couldn't resolve.
+
+Luckily, getting fired was the answer I needed.",2025-10-29 16:35:20,tweet,3,0.9883688757357098
+tweet_1983574489129455753,"This week’s highlights:
+
+Data Room: 36K tweets, 9K self-conversations
+
+AI Co-Founder running locally
+
+1/3 predicted sponsors secured
+
+Full weekly update video will be dropping later today on https://t.co/xt1hOicp2w",2025-10-29 16:39:45,tweet,4,1.0
+tweet_1983574486382215184,"Midweek update: MetaSPN Season 1 is live.
+
+We’re creating sabermetrics for business. ⚾️📊
+
+(The analytics of human learning.)
+
+Details 👇",2025-10-29 16:39:45,tweet,-1,0.0
+tweet_1983574490735903192,"The goal: make business measurable like sport.
+
+Track performance. 
+Reduce time violence.
+Teach AI systems to play fairly.
+
+LFG! 🔥",2025-10-29 16:39:46,tweet,-1,0.0
+tweet_1983576328730223070,*364,2025-10-29 16:47:04,tweet,-1,0.0
+tweet_1983577982510727559,"Just spent time crafting a custom metric for a possible MetaSPN sponsor.
+
+Excited by this one, because it's an important one.
+
+Hint: involves $$$...",2025-10-29 16:53:38,tweet,-1,0.0
+tweet_1983579369499955619,"│ Here are the key themes that emerged over time based on the Twitter and writing content:                               │
+│                                                                                                                        │
+│ **Early Themes",2025-10-29 16:59:09,tweet,-1,0.0
+tweet_1983595436431778255,We've all been there. https://t.co/oiMzdm1V92,2025-10-29 18:03:00,tweet,2,1.0
+tweet_1983599001737031685,"When I need to align, I align.
+
+Alignment calibration in process.",2025-10-29 18:17:10,tweet,-1,0.0
+tweet_1983620860943777958,Consciousness.,2025-10-29 19:44:01,tweet,-1,0.0
+tweet_1983637791583171060,"FYI: the brain is a thermodynamic computer. 
+
+Extropic is something to watch and I’d bet a ton on it.",2025-10-29 20:51:18,tweet,6,1.0
+tweet_1983652849822347446,"Just sent them a custom tracking dashboard they can use and two different offers, an observer tier and a participant tier, based on how involved they want to be on the metric at first.",2025-10-29 21:51:08,tweet,-1,0.0
+tweet_1983653199602184503,"Ok @bryan_johnson, I have no reason so far to measure my nighttime erections to see if they impact any of these stats.
+
+But if you want to make Blueprint a sponsor of MetaSPN, we can start looking at possible correlations.",2025-10-29 21:52:31,tweet,8,1.0
+tweet_1983653610828280197,"This is why MetaSPN is needed. It fills the gaps for the people who need money and may or may not be venture ready.
+
+And gives everyone the option to make that choice fully informed.",2025-10-29 21:54:09,tweet,-1,0.0
+tweet_1983656844481720488,"🧵 1/ Conscious Investing 101: How Founders Can Trade the Future They’re Building
+
+What if founders could invest in the future they already see coming by trading the entropy between what they know and what the market doesn’t yet believe?
+
+Let’s talk about Conscious Investing 👇",2025-10-29 22:07:00,tweet,6,0.9868362581020681
+tweet_1983656856448106830,"7/ Currently working on a prototype using THRML, a probabilistic modeling library built in JAX that they dropped.
+
+It lets us simulate networks where “trust,” “belief,” and “evidence” interact dynamically — just like a founder network sensing what’s next.",2025-10-29 22:07:03,tweet,-1,0.0
+tweet_1983656854141202632,"6/ This is where thermodynamic computing comes in 🔥
+
+I just saw @GillVerd's new chips  — chips that literally perform energy-based probabilistic reasoning
+
+They run algorithms that sample possible futures the way your intuition does — but billions of times faster.",2025-10-29 22:07:03,tweet,6,0.9900594939101836
+tweet_1983656869697876435,"14/ Want to follow the build?
+
+We’ll be sharing live dashboards, open trades, and the math behind the system as it evolves. That's part of being the first professional Mathlete!
+
+Here's a sample paper trade that shows the logic: https://t.co/ERRl7ReRVb",2025-10-29 22:07:06,tweet,5,0.9520510375139813
+tweet_1983656867843944534,"13/ This is the 101 version.
+
+Under the hood, Extropic is using thermodynamic processors, energy-based models, and trust-weighted Bayesian graphs that literally compute with heat.
+
+But all you really need to know is:
+The future leaks data.
+We're building the net to catch it.",2025-10-29 22:07:06,tweet,6,1.0
+tweet_1983663953080393863,"Awww, the porn bots are back and have found me again. 
+
+Has been awhile, I thought they forgot about me. Has been quiet without even those likes. https://t.co/ejdWeQm2fy",2025-10-29 22:35:15,tweet,2,1.0
+tweet_1983676920299491695,Ah yes. The classic Founder pattern [True True False True True False] https://t.co/qOMPMoBBm9,2025-10-29 23:26:47,tweet,7,1.0
+tweet_1983677294410359046,"Not revolutionary. Cyclical Amnesia.
+
+Just pattern recognition applied to founder psychology using probabilistic graphical models and structured data archives. https://t.co/aRNdEFgoqq",2025-10-29 23:28:16,tweet,-1,0.0

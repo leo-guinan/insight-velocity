@@ -1,0 +1,141 @@
+{
+  "overview": {
+    "total_days": 6,
+    "dates_analyzed": [
+      "2025-10-27",
+      "2025-10-28",
+      "2025-10-29",
+      "2025-10-30",
+      "2025-10-31",
+      "full_week"
+    ]
+  },
+  "daily_results": [
+    {
+      "date": "2025-10-27",
+      "tweet_count": 13,
+      "community_detection": {
+        "communities": 10,
+        "entropy": 0.9575261403463023,
+        "largest_community": 3
+      },
+      "hdbscan": {
+        "clusters": 3,
+        "entropy": 0.9206198357143047,
+        "outlier_fraction": 0.07692307692307693,
+        "outliers": 1
+      },
+      "comparison": {
+        "entropy_difference": 0.03690630463199762,
+        "cluster_count_difference": 7
+      }
+    },
+    {
+      "date": "2025-10-28",
+      "tweet_count": 20,
+      "community_detection": {
+        "communities": 15,
+        "entropy": 0.9526573636515288,
+        "largest_community": 4
+      },
+      "hdbscan": {
+        "clusters": 5,
+        "entropy": 0.9213299651463157,
+        "outlier_fraction": 0.15,
+        "outliers": 3
+      },
+      "comparison": {
+        "entropy_difference": 0.031327398505213044,
+        "cluster_count_difference": 10
+      }
+    },
+    {
+      "date": "2025-10-29",
+      "tweet_count": 44,
+      "community_detection": {
+        "communities": 38,
+        "entropy": 0.9850646371404996,
+        "largest_community": 3
+      },
+      "hdbscan": {
+        "clusters": 10,
+        "entropy": 0.9793813391674573,
+        "outlier_fraction": 0.36363636363636365,
+        "outliers": 16
+      },
+      "comparison": {
+        "entropy_difference": 0.005683297973042345,
+        "cluster_count_difference": 28
+      }
+    },
+    {
+      "date": "2025-10-30",
+      "tweet_count": 26,
+      "community_detection": {
+        "communities": 22,
+        "entropy": 0.9677969532010736,
+        "largest_community": 4
+      },
+      "hdbscan": {
+        "clusters": 4,
+        "entropy": 0.8911143594569007,
+        "outlier_fraction": 0.23076923076923078,
+        "outliers": 6
+      },
+      "comparison": {
+        "entropy_difference": 0.07668259374417297,
+        "cluster_count_difference": 18
+      }
+    },
+    {
+      "date": "2025-10-31",
+      "tweet_count": 37,
+      "community_detection": {
+        "communities": 19,
+        "entropy": 0.8729274233995306,
+        "largest_community": 9
+      },
+      "hdbscan": {
+        "clusters": 5,
+        "entropy": 0.8628180862277965,
+        "outlier_fraction": 0.21621621621621623,
+        "outliers": 8
+      },
+      "comparison": {
+        "entropy_difference": 0.010109337171734012,
+        "cluster_count_difference": 14
+      }
+    },
+    {
+      "date": "full_week",
+      "tweet_count": 140,
+      "community_detection": {
+        "communities": 93,
+        "entropy": 0.9297307914675681,
+        "largest_community": 12
+      },
+      "hdbscan": {
+        "clusters": 24,
+        "entropy": 0.9372464272609254,
+        "outlier_fraction": 0.40714285714285714,
+        "outliers": 57
+      },
+      "comparison": {
+        "entropy_difference": 0.007515635793357345,
+        "cluster_count_difference": 69
+      }
+    }
+  ],
+  "weekly_summary": {
+    "tweet_count": 140,
+    "community_detection": {
+      "communities": 93,
+      "entropy": 0.9297307914675681
+    },
+    "hdbscan": {
+      "clusters": 24,
+      "entropy": 0.9372464272609254,
+      "outlier_fraction": 0.40714285714285714
+    }
+  }
+}

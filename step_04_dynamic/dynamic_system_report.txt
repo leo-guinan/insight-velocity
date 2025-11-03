@@ -1,0 +1,64 @@
+================================================================================
+⚙️  DYNAMIC SYSTEM MODELING REPORT - Insight Thermodynamics
+================================================================================
+
+📊 MODEL SUMMARY
+--------------------------------------------------------------------------------
+Model Type: Damped Driven Oscillator
+Equation: m*x'' + c*x' + k*x = F(t)
+
+Variables:
+  - x = IV (position in insight space)
+  - x' = ΔIV (velocity / creative acceleration)
+  - F(t) = Exploration Pressure (driving force)
+  - c = (1 - Integration Potential) (damping)
+  - k = (1 - Compression Readiness) (elasticity)
+
+================================================================================
+🎯 SIMULATION ACCURACY
+================================================================================
+Mean Squared Error: 0.044708
+Mean Absolute Error: 0.188584
+
+================================================================================
+🔄 PHASE TRANSITIONS
+================================================================================
+
+🔥 Eruption Phase (High Temperature, High Energy):
+  2025-10-29:
+    Temperature (Entropy): 0.9822
+    Energy (IV): 0.4685
+    Driving Force (Exploration Pressure): 0.3572
+    Damping (1 - Integration): 0.5000
+    Elasticity (1 - Compression): 0.9926
+
+✍️  Synthesis Phase (Low Temperature, Stable Energy):
+  2025-10-27:
+    Temperature (Entropy): 0.9391
+    Energy (IV): 0.4498
+    Posts: 1
+  2025-10-30:
+    Temperature (Entropy): 0.9295
+    Energy (IV): 0.4699
+    Posts: 3
+  2025-10-31:
+    Temperature (Entropy): 0.8679
+    Energy (IV): 0.4776
+    Posts: 3
+
+================================================================================
+⚡ ENERGY EFFICIENCY
+================================================================================
+Average: -0.0052
+Best: 0.1342 (2025-10-29 00:00:00)
+
+================================================================================
+🔮 FORWARD PREDICTIONS
+================================================================================
+  Day 1: IV = 0.4853 (ΔIV = +0.0077)
+  Day 2: IV = 0.4930 (ΔIV = +0.0077)
+  Day 3: IV = 0.5007 (ΔIV = +0.0077)
+  Day 4: IV = 0.5084 (ΔIV = +0.0077)
+  Day 5: IV = 0.5161 (ΔIV = +0.0077)
+
+================================================================================

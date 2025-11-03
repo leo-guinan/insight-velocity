@@ -1,0 +1,82 @@
+================================================================================
+🧭 TEMPORAL MODELING REPORT - Insight Velocity Momentum Analysis
+================================================================================
+
+📊 SUMMARY STATISTICS
+--------------------------------------------------------------------------------
+Average IV: 0.4573
+Average ΔIV: 0.0056
+Average IV Momentum: 0.0035
+Average Exploration Pressure: 0.1944
+Average Synthesis Probability: 52.00%
+
+================================================================================
+📅 DAY-BY-DAY MOMENTUM ANALYSIS
+================================================================================
+
+📅 2025-10-27
+   IV: 0.4498 | ΔIV: +0.0000 (→)
+   IV Momentum: +0.0000
+   Exploration Pressure: 0.0722
+   Synthesis Probability: 30.0%
+   ✍️  Synthesis: 1 post(s)
+   📊 Forecast: Normal
+
+📅 2025-10-28
+   IV: 0.4206 | ΔIV: -0.0292 (↓)
+   IV Momentum: -0.0146
+   Exploration Pressure: 0.1405
+   Synthesis Probability: 40.0%
+   ✓ In Sweet Spot Zone
+   📊 Forecast: Sweet spot | Moderate synthesis likelihood (40.0%)
+
+📅 2025-10-29
+   IV: 0.4685 | ΔIV: +0.0479 (↑)
+   IV Momentum: +0.0062
+   Exploration Pressure: 0.3572
+   Synthesis Probability: 0.0%
+   🔥 ERUPTION DETECTED (outliers: 36.4%)
+   📊 Forecast: Eruption detected
+
+📅 2025-10-30
+   IV: 0.4699 | ΔIV: +0.0014 (↑)
+   IV Momentum: +0.0067
+   Exploration Pressure: 0.2145
+   Synthesis Probability: 100.0%
+   ✓ In Sweet Spot Zone
+   ✍️  Synthesis: 3 post(s)
+   📊 Forecast: Sweet spot | High synthesis likelihood (100.0%)
+
+📅 2025-10-31
+   IV: 0.4776 | ΔIV: +0.0077 (↑)
+   IV Momentum: +0.0190
+   Exploration Pressure: 0.1876
+   Synthesis Probability: 90.0%
+   ✓ In Sweet Spot Zone
+   ✍️  Synthesis: 3 post(s)
+   📊 Forecast: Sweet spot | High synthesis likelihood (90.0%)
+
+================================================================================
+🔍 PATTERN ANALYSIS
+================================================================================
+
+🔥 Eruption → Synthesis Pattern:
+   2025-10-29: 36.4% outliers
+      → 2025-10-30: 3 post(s) ✓ SYNTHESIS CONFIRMED
+      → 2025-10-31: 3 post(s) ✓ SYNTHESIS CONFIRMED
+
+📈 Momentum Insights:
+   - Accelerating days: 3/5 (60.0%)
+   - Average acceleration: +0.0190
+   - Decelerating days: 1/5 (20.0%)
+   - Average deceleration: -0.0292
+
+================================================================================
+🔮 SYNTHESIS FORECAST SUMMARY
+================================================================================
+
+High Synthesis Probability (>50%): 2 days
+   - 2025-10-30: 100.0%
+   - 2025-10-31: 90.0%
+
+================================================================================

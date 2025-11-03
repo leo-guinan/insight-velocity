@@ -1,0 +1,52 @@
+{
+  "community_detection": {
+    "T_d": 10,
+    "community_sizes": {
+      "0": 1,
+      "1": 1,
+      "7": 3,
+      "3": 1,
+      "4": 1,
+      "5": 2,
+      "6": 1,
+      "8": 1,
+      "9": 1,
+      "2": 1
+    },
+    "non_noise_sizes": {
+      "0": 1,
+      "1": 1,
+      "7": 3,
+      "3": 1,
+      "4": 1,
+      "5": 2,
+      "6": 1,
+      "8": 1,
+      "9": 1,
+      "2": 1
+    },
+    "H_in_comm": 0.9575261403463023,
+    "num_nodes": 13,
+    "num_edges": 3
+  },
+  "hdbscan": {
+    "T_topics": 3,
+    "cluster_sizes": {
+      "1": 6,
+      "2": 4,
+      "0": 2,
+      "-1": 1
+    },
+    "non_noise_sizes": {
+      "1": 6,
+      "2": 4,
+      "0": 2
+    },
+    "H_in_hdb": 0.9206198357143047,
+    "outlier_fraction": 0.07692307692307693,
+    "noise_count": 1,
+    "num_items": 13
+  },
+  "entropy_difference": 0.03690630463199762,
+  "cluster_count_difference": 7
+}
