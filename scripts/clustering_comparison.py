@@ -164,23 +164,63 @@ def hdbscan_clustering(items_csv, output_csv=None, min_cluster_size=2):
         raise ValueError("Items CSV must contain 'id' and 'text' columns")
     
     # Create TF-IDF embeddings (same as in k-NN pipeline)
-    tfidf = TfidfVectorizer(ngram_range=(1, 2), min_df=1)
+    # Use min_df > 1 to reduce feature space for large datasets
+    min_df = 2 if len(items_df) > 10000 else 1
+    tfidf = TfidfVectorizer(ngram_range=(1, 2), min_df=min_df, max_features=50000)
     X = tfidf.fit_transform(items_df['text'].astype(str).values)
     
     print(f"Created TF-IDF embeddings: {X.shape[0]} items, {X.shape[1]} features")
     
     # Run HDBSCAN
     # Use UMAP for dimensionality reduction if dataset is large
+    # For very large datasets, use TruncatedSVD first to reduce memory footprint
     if X.shape[1] > 50:
-        print("  Applying UMAP dimensionality reduction...")
+        print("  Applying dimensionality reduction...")
         try:
-            import umap
-            reducer = umap.UMAP(n_components=50, random_state=42)
-            X_reduced = reducer.fit_transform(X.toarray() if hasattr(X, 'toarray') else X)
-            print(f"  Reduced to {X_reduced.shape[1]} dimensions")
-        except ImportError:
-            print("  Warning: UMAP not installed, using raw TF-IDF (may be slow)")
-            X_reduced = X.toarray() if hasattr(X, 'toarray') else X
+            from sklearn.decomposition import TruncatedSVD
+            
+            # First reduce to 100 dims with TruncatedSVD (sparse-friendly)
+            if X.shape[1] > 1000:
+                print(f"  Step 1: Reducing {X.shape[1]} → 100 dims with TruncatedSVD (memory efficient)...")
+                svd = TruncatedSVD(n_components=100, random_state=42)
+                X_svd = svd.fit_transform(X)  # Works directly on sparse matrix
+                print(f"  ✓ Reduced to 100 dimensions")
+            else:
+                X_svd = X.toarray() if hasattr(X, 'toarray') else X
+            
+            # Then use UMAP for final reduction
+            try:
+                import umap
+                print(f"  Step 2: Reducing {X_svd.shape[1]} → 50 dims with UMAP...")
+                reducer = umap.UMAP(n_components=50, random_state=42, verbose=False)
+                X_reduced = reducer.fit_transform(X_svd)
+                print(f"  ✓ Reduced to {X_reduced.shape[1]} dimensions using UMAP")
+            except ImportError:
+                print(f"  Warning: UMAP not available, using TruncatedSVD only")
+                # Further reduce to 50 if we still have more
+                if X_svd.shape[1] > 50:
+                    svd2 = TruncatedSVD(n_components=50, random_state=42)
+                    X_reduced = svd2.fit_transform(X_svd)
+                else:
+                    X_reduced = X_svd
+        except Exception as e:
+            print(f"  Warning: Dimensionality reduction failed ({e}), using raw TF-IDF")
+            print(f"  This may be slow and memory-intensive...")
+            # Fallback: use PCA if available, otherwise just use sparse
+            try:
+                from sklearn.decomposition import TruncatedSVD
+                print(f"  Using TruncatedSVD to reduce {X.shape[1]} → 50 dimensions...")
+                svd = TruncatedSVD(n_components=50, random_state=42)
+                X_reduced = svd.fit_transform(X)
+            except:
+                # Last resort: convert to dense (may fail on very large datasets)
+                if X.shape[0] * X.shape[1] < 1e8:  # Only if reasonable size
+                    X_reduced = X.toarray() if hasattr(X, 'toarray') else X
+                else:
+                    raise MemoryError(
+                        f"Dataset too large ({X.shape[0]} × {X.shape[1]}). "
+                        "Try filtering by date range or reducing dataset size."
+                    )
     else:
         X_reduced = X.toarray() if hasattr(X, 'toarray') else X
     

@@ -12,3 +12,12 @@ __pycache__/
 *.pyzwzwz
 
 idea-nexus-*.json
+*.zip
+# AI Archives - Private conversations should not be committed
+ai_archives/
+**/ai_archives/
+
+# OpenAI exports - Raw archive files
+*.zip
+openai_export/
+chatgpt_export/
